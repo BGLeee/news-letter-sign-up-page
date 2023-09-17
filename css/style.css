@@ -53,7 +53,7 @@ article:last-child{
     font-weight: 700;
 }
 h1{
-   font-size: 3.7rem;
+   font-size: 3rem;
    color: var(--Charcoal-Grey);
    margin-bottom: 1.5rem;
    font-family:"Roboto", sans-serif; 
@@ -148,8 +148,13 @@ button[type=submit]:hover{
     border-color: red;
     background-color: rgb(245, 222, 222);
 }
+/* success page css */
 
-@media (min-width: 640px){
+main{
+    background-color: white;
+}
+
+@media (min-width: 470px){
     body{
         background-color: var(--Charcoal-Grey);
         text-align: center;
@@ -170,8 +175,8 @@ button[type=submit]:hover{
     color: black;
     display: flex;
     flex-direction: row;
-    padding: 2rem;
-    width: 62%;
+    padding: 1.5rem;
+    width: 52%;
     /* height: 50%; */
  
 }
