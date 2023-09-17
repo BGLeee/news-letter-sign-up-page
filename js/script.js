@@ -9,10 +9,14 @@ const form = document.querySelector("form");
        return emailField.classList.add("invalid");
     }
     emailField.classList.remove('invalid')
-
+    window.location.href = "success.html"
+    
 }
 
 form.addEventListener('submit',function(e){
     e.preventDefault();
     checkEmail();
 })
+function clickedButton() {
+    window.history.back()
+}
